@@ -71,7 +71,7 @@ export const Card = ({ image, name, category, price, id, info = [] }) => {
       <CardBody>
         <CardTitle>{category}</CardTitle>
         <CardName>{name}</CardName>
-        <CardPrice>{price}</CardPrice>
+        <CardPrice>${price}</CardPrice>
       </CardBody>
     </Wrapper>
   );

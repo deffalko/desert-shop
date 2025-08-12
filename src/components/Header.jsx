@@ -19,7 +19,8 @@ const Title = styled(Link).attrs({
   to: "/",
 })`
   color: var(--colors-text);
-  font-size: var(--fs-sm);
+  // font-size: var(--fs-sm);
+  font-size: 38px;
   text-decoration: none;
   font-weight: var(--fw-bold);
 `;

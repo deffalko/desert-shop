@@ -66,3 +66,55 @@ body {
   border: none;
   outline: none;
 }
+
+.Cart {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.CartItem {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.CartInfo {
+  display: flex;
+  flex-direction: column;
+}
+.CartName {
+  font-weight: var(--fw-bold);
+  font-size: 14px;
+}
+.CartSum {
+  display: flex;
+  gap: 12px;
+}
+.CartPrice {
+  color: gray;
+}
+.CartTotal {
+  color: gray;
+  font-weight: var(--fw-bold);
+}
+.CartQuantity {
+  color: orange;
+}
+.TotalPrice {
+  color: orange;
+  font-size: 24px;
+  padding-top: 10px;
+}
+.CartClose {
+  cursor: pointer;
+}
+.CartBtn {
+  cursor: pointer;
+  display: flex;
+  border: 1px solid rgb(245, 160, 34);
+  padding: 10px 38px 8px 38px;
+  border-radius: 28px;
+  background: rgb(245, 160, 34);
+  justify-content: center;
+  font-size: 21px;
+  font-weight: var(--fw-bold);
+}
